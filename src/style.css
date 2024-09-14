@@ -254,7 +254,7 @@ main{
     width: 150px;
     text-align: center;
     left: 25%;
-    top: -20px;
+    top: -30px;
     border-radius: 5px;
     transform: perspective(100px);
     font-size: 1em;
@@ -266,7 +266,7 @@ main{
 
 .bar{
     position: absolute;
-    top: 10px;
+    top: 0px;
     left: 52px;
     width: 200px;
     height: 15px;
