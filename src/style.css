@@ -1,0 +1,451 @@
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@700&display=swap");
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gluten';
+}
+
+main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.novel-review{
+    position: relative;
+    width: 450px;
+}
+
+.links{
+    width: 100%;
+    height: 100vh;
+    background-color: #D9DADD;
+    padding:  5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links a{
+    color: #2a2b2d;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+
+
+.links h4{
+    width: auto;
+    margin-bottom: 15px;
+    background-size: 0 100%;
+    background-position: 0 .8em;
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+
+}
+
+.links h4:hover{
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    background-image: linear-gradient(to right, #2a2b2d 0, #2a2b2d 100%);
+    background-size: 100% 100%;
+    transform: scale(1.2);
+
+}
+
+.links img{
+
+    width: 500px; 
+}
+
+.img-container p{
+    position: absolute;
+    width: 300px;
+    top: 32%;
+    left: 62%;
+    font-size: 1.6em;
+    line-height: 1.5em;
+    color: #2a2b2d;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.review-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #cfd4cd;
+    padding: 5% 15%;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.book-cover{
+    position: relative;
+    width: 350px;
+    height: 450px;
+    background-color: #58654b;
+    z-index: 1;
+}
+
+.book-img{
+    position: absolute;
+    top: 16%;
+    left: -20%;
+    width: 500px;
+    height: 300px;
+    box-shadow: 2px 2px 2px 2px #191a19;
+    z-index: 1;
+}
+
+.box{
+    position: relative;
+    width: 300px;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.text{
+    position: absolute;
+    z-index: 5;    
+}
+
+.tan h3{
+    top: -15px;
+    left: 20px;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+.tan h2{
+    top: 40px;
+    left: 10px;
+    color: #ffffff;
+    font-size: 1.4em;
+    padding-right: 5px;
+}
+
+.box-container{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: #ffffff 2px solid;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.box-bg{
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    background-color: #58654b;
+    width: 100%;
+    height: 100px;
+    z-index: 2;
+}
+
+/* .title::before{
+    background-color: #bbc7af;
+} */
+
+.title h3{
+    text-shadow: 2px 2px 2px #bbc7af;
+}
+
+/* .author::before{
+    background-color: #85987a;
+} */
+
+.author h3{
+    text-shadow: 2px 2px 2px #85987a;
+}
+
+.notes h3{
+    text-shadow: 2px 2px 2px #58654b;
+}
+
+.notes p{
+    color: #ffffff;
+    font-size: .8em;
+    padding: 25px 20px;
+}
+
+.circles{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+
+.c1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #586c61;
+    clip-path: circle(1000px at right 400px);
+    z-index: 1;
+    right: -750px;
+
+}
+
+.c2{
+    position: absolute;
+    top: 120px;
+    right: -80px;
+    width: 100%;
+    height: 100%;
+    background-color: #465f517e;
+    clip-path: circle(400px at right 500px);
+    z-index: 1;
+
+}
+
+
+.fortune{
+    position: relative;
+    top: 25px;
+    width: 200px;
+    height: fit-content;
+    background-color: #e9cfb1;
+    transform: rotate(-8deg);
+    z-index: 1;
+}
+
+.fortune p{
+    font-size: .8em;
+    font-weight: 600;
+}
+
+.fav-quote{
+    position: relative;
+    width: 300px;
+    height: 150px;
+    background-color: #cfc2b2;
+    z-index: 3;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px #58654b;
+    padding: 5px;
+}
+
+.fav-quote h2{
+    position: relative;
+    background-color: #586c61;
+    color: #ffffff;
+    width: 150px;
+    text-align: center;
+    left: 25%;
+    top: -20px;
+    border-radius: 5px;
+    transform: perspective(100px);
+    font-size: 1em;
+    letter-spacing: .1em;
+    line-height: .8em;
+    padding: 5px;
+
+}
+
+.bar{
+    position: absolute;
+    top: 10px;
+    left: 52px;
+    width: 200px;
+    height: 15px;
+    background-color: #586c61;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.fav-quote p{
+    padding: 5px 20px;
+    font-weight: 700;
+}
+
+.gifts{
+    z-index: 2;
+    display: flex;
+    /* grid-template-columns: auto; */
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 80px;
+    width: 200px;
+}
+
+.gifts h2{
+    color: #fff;
+    text-shadow: 2px 2px 2px #191a19;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.gift{
+    position: relative;
+    width: 140px;
+    height: 140px;
+}
+
+.gift-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.gift-container img{
+    height: 140px;
+}
+
+.first .gift-container{
+    right: 15px;
+    bottom: 5px;
+}
+
+.second .gift-container{
+    left: 15px;
+}
+
+.third .gift-container{
+    right: 15px;
+}
+
+
+.gift-bg-hue{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #bbc7af;
+}
+
+.my-review{
+    position: absolute;
+    bottom: 60px;
+    right: 200px;
+    z-index: 3;
+    margin-top: 80px;
+    width: 450px;
+}
+
+.my-review img{
+    width: 450px;
+    background-color: #191a19;
+    filter: brightness(.96);
+}
+
+.my-review h2{
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    font-size: 1.6em;
+    color: #2F4858;
+}
+
+.my-review p{
+    position: absolute;
+    top: 55px;
+    padding: 0px 20px;
+    line-height: 1.4em;
+    word-spacing: .4em;
+    color: #2F4858;
+    font-size: 1.1em;
+}
+
+
+
+
+
+
+.bottom-circles{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0px;
+    right: 0;
+}
+
+
+
+.bc1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(600px at right 600px) ;
+    z-index: 2;
+    background-color: #586c61;
+
+}
+
+.bc2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #979e9ae4;
+    clip-path: circle(300px at center 700px);
+    z-index: 1;
+}
+
+.rec-ting{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    border-radius: 150px;
+    background-color: #85987a6e;
+    bottom: 60px;
+    left: -600px;
+    transform: rotate(70deg);
+    z-index: 0;
+}
+
+.leaf{
+    position: absolute;
+    top: 36%;
+    left: 21%;
+    width: 250px;
+    transform: rotate(230deg);
+}
+
+.vintage-paper{
+    position: absolute;
+    bottom: 0;
+    left: -17%;
+    z-index: 1;
+}
+
+.gar{
+    position: absolute;
+    bottom: 20%;
+    right: 45.6%;
+    z-index: 3;
+    width: 100px;
+}
+
+.clear-tape{
+    position: absolute;
+    bottom: 38%;
+    right: 25%;
+    z-index: 3;
+    width: 200px;
+}
