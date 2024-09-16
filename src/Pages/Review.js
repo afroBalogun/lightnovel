@@ -7,7 +7,72 @@ import Fortune from "../components/Fortune";
 import Gifts from "../components/Gifts";
 import MyReview from "../components/MyReview";
 
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+import {useRef} from 'react';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+
+
 export default function Review(props){
+
+    gsap.registerPlugin(useGSAP, ScrollTrigger)
+
+    useGSAP( () =>{
+        // const tl = gsap.timeline({defaults: {ease: "power2.inOut"}})
+        gsap.timeline()
+        gsap.from( '.c1',{
+            duration: .5,
+            xPercent: 100,
+            opacity: 0,
+        }
+        )
+        gsap.from( '.c2',{
+            duration: .3,
+            delay: .2,
+            xPercent: 100,
+            opacity: 0,
+        }
+
+        )
+
+        gsap.from( '.rec-ting', {
+            duration: .5,
+            delay : .4,
+            opacity: 0,
+            xPercent: -100,
+        })
+
+        gsap.from( '.leaf', {
+            duration: .5,
+            opacity: 0,
+            delay: 1.5
+        })
+
+        gsap.from( '.bc1',{
+            scrollTrigger: {
+                trigger: '.bc1',
+                start: '-50% bottom',
+                markers: false
+            },
+            bottom: -400,
+            right: -800,
+            opacity: 0,
+            duration: .5,
+        })
+
+        gsap.from( '.bc2',{
+            scrollTrigger: {
+                trigger: '.bc2',
+                start: '30% bottom',
+                markers: false
+            },
+            bottom: -200,
+            left: -300,
+            opacity: 0,
+            duration: .5,
+        })
+    })
 
     // console.log(props.clickedLink)
 
@@ -85,10 +150,8 @@ export default function Review(props){
 
             <div className="vintage-images">
                 <img src="images/john's page.png" alt="" className="vintage-paper" />
-                <img src="images/gar.png" alt="" className="gar" />
             </div>
             <img src="images/maple.png" alt="" className="leaf" />
-            <img src="images/clear-tape.png" alt="" className="clear-tape" />
         </div>
         
     )

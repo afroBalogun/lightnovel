@@ -117,6 +117,7 @@ main{
     width: 300px;
     height: 100px;
     margin-bottom: 40px;
+    z-index: 3;
 }
 
 .text{
@@ -281,6 +282,7 @@ main{
 }
 
 .gifts{
+    position: relative;
     z-index: 2;
     display: flex;
     /* grid-template-columns: auto; */
@@ -289,6 +291,7 @@ main{
     gap: 20px;
     margin-top: 80px;
     width: 200px;
+    height: auto;
 }
 
 .gifts h2{
@@ -349,10 +352,25 @@ main{
     width: 450px;
 }
 
-.my-review img{
+.review-paper{
     width: 450px;
-    background-color: #191a19;
     filter: brightness(.96);
+}
+
+.clear-tape{
+    position: absolute;
+    top: -12%;
+    right: 30%;
+    z-index: 3;
+    width: 200px;
+}
+
+.gar{
+    position: absolute;
+    top: 30%;
+    left: -15%;
+    z-index: 3;
+    width: 100px;
 }
 
 .my-review h2{
@@ -434,18 +452,7 @@ main{
     z-index: 1;
 }
 
-.gar{
-    position: absolute;
-    bottom: 20%;
-    right: 45.6%;
-    z-index: 3;
-    width: 100px;
-}
 
-.clear-tape{
-    position: absolute;
-    bottom: 38%;
-    right: 25%;
-    z-index: 3;
-    width: 200px;
-}
+
+
+
