@@ -1415,12 +1415,12 @@ main{
 
     .tan h2{
         position: absolute;
-        font-size: .8em;
+        font-size: .6em;
         top: 20px;
     }
 
     .tan h3{
-        font-size: .7em;
+        font-size: .6em;
         position: absolute;
         top: -10px;
         left: 10px;
