@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Gluten';
+    transition: ease-in-out;
 }
 
 main{
@@ -452,7 +453,966 @@ main{
     z-index: 1;
 }
 
+@media (max-width: 1330px) {
+    
+    .review-container{
+        padding: 5% 10%;
+    }
+
+    .my-review{
+        right: 10%;
+    }
+}
+
+@media (max-width: 1200px) {
+
+
+    .links img{
+        width: 400px;
+    }
+
+    .img-container p{
+        font-size: 1.2em;
+        width: 220px;
+        left: 66%;
+    }
+
+    .book-cover{
+        width: 250px;
+        height: 350px;
+        left: 30%;
+    }
+
+    .book-img{
+        width: 450px;
+        height: 280px;
+        top: 10%;
+        left: -37%;
+    }
+
+    .tan h2{
+        font-size: 1em;
+    }
+
+    .tan h3{
+        font-size: 1.2em;
+    }
+
+    .box{
+        width: 250px;
+        height: 80px;
+    }
+
+    .box-bg{
+        width: 100%;
+        height: 100%;
+    }
+
+    .notes p{
+        font-size: .7em;
+    }
+
+    .fortune{
+        margin-top: 40px;
+        z-index: 3;
+        left: 40px;
+    }
+
+    .fav-quote{
+        margin-top: 40px;
+        width: 250px;
+        height: 120px;
+    }
+
+    .fav-quote h2{
+        width: 120px;
+        font-size: .9em;
+    }
+
+    .fav-quote p{
+        font-size: .9em;
+        padding: 0px 10px;
+    }
+
+    .bar{
+        width: 150px;
+    }
+
+    .leaf{
+        top: 32%;
+        width: 200px;
+    }
+
+    .gifts{
+        left: 30%;
+        margin-top: 60px;
+    }
+
+    .gifts h2{
+        font-size: 1em;
+    }
+
+    .gift{
+        width: 120px;
+        height: 120px;
+    }
+
+    .gift-container img{
+        height: 120px;
+    }
+
+    .my-review{
+        margin-top: 60px;
+        width: 400px;
+    }
+
+    .review-paper{
+        width: 400px;
+    }
+
+    .clear-tape{
+        top: -10%;
+        width: 150px;
+    }
+
+    .gar{
+        width: 80px;
+        left: -13%;
+    }
+
+    .my-review h2{
+        font-size: 1.4em;
+    }
+
+    .my-review p{
+        top: 50px;
+        font-size: .9em;
+        line-height: 1.6em;
+    }
+
+    .vintage-paper{
+        transform: scale(.78);
+        bottom: -6%;
+        left: -18%;
+    }
+
+
+}
+
+@media (max-width: 1050px) {
+
+    .links{
+        padding: 10%;
+    }
+
+    .links img{
+        width: 350px;
+    }
+
+    .links h4{
+        font-size: .8em;
+    }
+
+    .img-container p{
+        font-size: 1em;
+        width: 200px;
+        left: 64%;
+        top: 35%;
+    }
+
+    .book-cover{
+        width: 200px;
+        height: 300px;
+        left: 40%;
+    }
+
+    .book-img{
+        width: 400px;
+        height: 250px;
+        top: 8%;
+        left: -50%;
+    }
+
+    .vintage-paper{
+        transform: scale(.78);
+        bottom: -6%;
+        left: -20%;
+    }
+
+}
+
+@media (max-width : 1000px) {
+    
+    .review-container{
+        padding: 10%;
+    }
+
+    .book-cover{
+        width: 250px;
+        height: 300px;
+        left: 50px;
+    }
+
+    .book-img{
+        width: 350px;
+        height: 220px;
+        left: -20%;
+        top: 13%;
+    }
+
+    .fortune{
+        margin-top: 20px;
+        width: 150px;
+        font-size: .8em;
+    }
+
+    .fav-quote{
+        width: 200px;
+        height: 100px;
+    }
+
+    .fav-quote h2{
+        font-size: .8em;
+        width: 100px;
+    }
+
+    .fav-quote p{
+        font-size: .7em;
+    }
+
+    .bar{
+        width: 130px;
+        left: 40px;
+    }
+
+    .leaf{
+        top: 35%;
+        width: 150px;
+    }
+
+    .gifts{
+        left: 10%;
+    }
+
+    .gift{
+        width: 100px;
+        height: 100px;
+    }
+
+    .gift-container img{
+        height: 100px;
+    }
+
+    .my-review{
+        width: 350px;
+        top: 54%;
+    }
+
+    .review-paper{
+        width: 350px;
+    }
+
+    .clear-tape{
+        top: -10%;
+        width: 150px;
+    }
+
+    .gar{
+        width: 60px;
+        left: -12%;
+    }
+
+    .my-review h2{
+        font-size: 1.2em;
+    }
+
+    .my-review p{
+        top: 45px;
+        font-size: .8em;
+        line-height: 1.5em;
+    }
+
+    .vintage-paper{
+        transform: scale(.78);
+        left: -22%;
+    }
+
+    .c1{
+        clip-path: circle(800px at right 450px);
+        right: -620px;
+
+    }
+
+    .c2{
+        clip-path: circle(300px at right 500px);
+        right: -40px;
+    }
+
+    .bc1{
+        clip-path: circle(430px at right 500px) ;
+    }
+
+    .rec-ting{
+        bottom: 0px;
+        left: -600px;
+        width: 120%;
+    }
+
+    .vintage-paper{
+        transform: scale(.74);
+        bottom: -7%;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .review-container{
+        padding: 10% 5% ;
+    }
+
+    .vintage-paper{
+        left: -24%;
+    }
+}
+
+@media (max-width: 850px) {
+    .review-container{
+        padding: 10%;
+    }
+
+    .book-cover{
+        width: 200px;
+        height: 250px;
+        top: 5%;
+    }
+
+    .book-img{
+        width: 300px;
+        height: 180px;
+        top: 13%;
+    }
+
+    .box{
+        margin-bottom: 30px;
+    }
+
+    .tan h2{
+        font-size: .8em;
+    }
+
+    .tan h3{
+        font-size: 1em;
+    }
+
+    .box{
+        width: 220px;
+        height: 70px;
+    }
+
+    .box-bg{
+        width: 100%;
+        height: 100%;
+    }
+
+    .notes p{
+        font-size: .6em;
+    }
+
+    .fortune{
+        margin-top: 10px;
+    }
+
+    .fav-quote h2{
+        top: -20px;
+    }
+
+    .leaf{
+        top: 33%;
+        left: 28%;
+    }
+
+    .gifts h2{
+        font-size: .9em;
+    }
+
+    .gift{
+        width: 90px;
+        height: 90px;
+    }
+
+    .gift-container img{
+        height: 90px;
+    }
+
+    .my-review{
+        width: 300px;
+        top: 54%;
+    }
+
+    .review-paper{
+        width: 300px;
+    }
+
+    .clear-tape{
+        top: -8%;
+        width: 100px;
+        left: 30%;
+    }
+
+    .gar{
+        width: 60px;
+        left: -12%;
+    }
+
+    .my-review h2{
+        top: 20px;
+        font-size: 1em;
+    }
+
+    .my-review p{
+        top: 40px;
+        font-size: .7em;
+        line-height: 1.5em;
+    }
+
+    .c1{
+        clip-path: circle(600px at right 400px);
+        right: -420px;
+
+    }
 
 
 
+    .c2{
+        clip-path: circle(250px at right 450px);
+        right: -30px;
+    }
 
+    .bc1{
+        clip-path: circle(400px at right 500px) ;
+    }
+
+    .bc2{
+        clip-path: circle(250px at center 550px);
+    }
+
+    .rec-ting{
+        bottom: 0px;
+        left: -580px;
+        width: 120%;
+    }
+
+    .vintage-paper{
+        transform: scale(.7);
+        bottom: -10%;
+        left: -27%;
+    }
+
+}
+
+
+
+@media (max-width: 750px) {
+    .review-container{
+        padding: 10%;
+    }
+
+    .book-cover{
+        width: 180px;
+        height: 230px;
+        top: 5%;
+    }
+
+    .book-img{
+        width: 280px;
+        height: 160px;
+        top: 14%;
+        left: -25%;
+    }
+
+    .box{
+        margin-bottom: 30px;
+    }
+
+    .tan h2{
+        font-size: .8em;
+    }
+
+    .tan h3{
+        font-size: 1em;
+    }
+
+    .box{
+        width: 200px;
+        height: 70px;
+        align-items: center;
+    }
+
+    .box-bg{
+        width: 100%;
+        height: 100%;
+    }
+
+    .notes p{
+        font-size: .6em;
+    }
+
+    .fortune{
+        margin-top: 20px;
+    }
+
+    .fav-quote h2{
+        top: -20px;
+        left: 45px;
+        font-size: .6em;
+        width: 80px;
+    }
+
+    .bar{
+        width: 110px;
+        left: 20%;
+    }
+
+    .fav-quote{
+        width: 180px;
+        height: 90px;
+    }
+
+    .fav-quote p{
+        font-size: .6em;
+    }
+
+    .leaf{
+        top: 32%;
+        left: 28%;
+    }
+
+    .gifts{
+        margin-top: 40px;
+        left: 0%;
+    }
+
+    .gifts h2{
+        font-size: .8em;
+    }
+
+    .gift{
+        width: 80px;
+        height: 80px;
+    }
+
+    .gift-container img{
+        height: 80px;
+    }
+
+    .my-review{
+        width: 250px;
+        top: 54%;
+    }
+
+    .review-paper{
+        width: 250px;
+    }
+
+    .clear-tape{
+        top: -8%;
+        width: 100px;
+        left: 30%;
+    }
+
+    .gar{
+        width: 50px;
+        left: -12%;
+    }
+
+    .my-review h2{
+        top: 15px;
+        font-size: .9em;
+    }
+
+    .my-review p{
+        top: 30px;
+        font-size: .7em;
+        line-height: 1.3em;
+        word-spacing: .1em;
+    }
+
+    .c1{
+        clip-path: circle(500px at right 350px);
+        right: -340px;
+
+    }
+
+    .c2{
+        clip-path: circle(250px at right 450px);
+        right: -40px;
+    }
+
+    .bc1{
+        clip-path: circle(300px at right 400px) ;
+    }
+
+    .bc2{
+        clip-path: circle(200px at center 500px);
+    }
+
+    .rec-ting{
+        bottom: 0px;
+        left: -580px;
+        width: 1000px;
+    }
+
+    .vintage-paper{
+        transform: scale(.6);
+        bottom: -14%;
+        left: -30%;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .review-container{
+        padding:  10% 5%;
+    }
+
+    .vintage-paper{
+        transform: scale(.6);
+        bottom: -16%;
+        left: -34%;
+    }
+}
+
+@media (max-width: 600px) {
+    .review-container{
+        padding: 10% 5%;
+    }
+
+    .book-cover{
+        width: 150px;
+        height: 200px;
+        top: 5%;
+    }
+
+    .book-img{
+        width: 230px;
+        height: 130px;
+        top: 15%;
+        left: -25%;
+    }
+
+    .box{
+        margin-bottom: 30px;
+    }
+
+    .tan h2{
+        font-size: .8em;
+    }
+
+    .tan h3{
+        font-size: .9em;
+    }
+
+    .box{
+        width: 180px;
+        height: 60px;
+        align-items: center;
+    }
+
+    .box-bg{
+        width: 100%;
+        height: 100%;
+    }
+
+    .notes p{
+        font-size: .5em;
+        width: 200px;
+    }
+
+    .leaf{
+        width: 100px;
+    }
+
+    .fortune{
+        top: -10px;
+        font-size: .7em;
+        width: 130px;
+    }
+
+    .fav-quote{
+        top: -20px;
+        right: 40px;
+    }
+
+    .gifts{
+        margin-top: 0px;
+        width: 150px;
+        left: 5%;
+    }
+
+    .gifts h2{
+        font-size: .8em;
+    }
+
+    .my-review{
+        margin-top: 30px;
+        right: 5%;
+    }
+
+    .vintage-paper{
+        transform: scale(.5);
+        bottom: -19%;
+        left: -37%;
+    }
+}
+
+@media (max-width: 550px) {
+    .vintage-paper{
+        transform: scale(.5);
+        bottom: -21%;
+        left: -43%;
+    }
+}
+
+@media (max-width: 500px) {
+    .review-container{
+        padding:  10% 0%;
+    }
+
+    .book-img{
+        width: 170px;
+        height: 100px;
+        top: 25%;
+        left: -8%;
+    }
+
+    .box{
+        width: 160px;
+    }
+
+    .notes p{
+        font-size: .5em;
+        width: 190px;
+    }
+
+    .fortune{
+        top: 10px ;
+        left: 40px;
+    }
+
+    .gifts h2{
+        font-size: .7em;
+        width: 120px;
+    }
+
+    .gifts{
+        margin-top: 20px;
+    }
+
+    .gift{
+        width: 50px;
+        height: 50px;
+        margin-bottom: 5px;
+
+    }
+
+    .gift-container img{
+        height: 50px;
+    }
+
+
+    .my-review{
+        margin-top: 70px;
+        width: 220px;
+    }
+
+    .clear-tape{
+        width: 100px;
+        top: -30px;
+    }
+
+    .my-review h2{
+        top: 15px;
+        font-size: .8em;
+    }
+
+    .my-review p{
+        top: 27px;
+        font-size: .58em;
+        line-height: 1.33em;
+    }
+
+    .review-paper{
+       width: 220px;
+    }
+
+
+
+    .vintage-paper{
+        left: -50%;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .book-cover{
+        width: 120px;
+        height: 180px;
+        left: 30px;
+        top: 10%;
+    }
+
+    .book-img{
+        left: -15%;
+        top: 17%;
+        width: 160px;
+        height: 120px;
+    }
+
+    .tan{
+        position: relative;
+        top: 20px;
+    }
+
+    .box{
+        width: 170px;
+        height: 50px;
+        margin-bottom: 23px;
+    }
+
+    .box-container{
+        top: 2px;
+        left: -4px;
+    }
+
+    .tan h2{
+        position: absolute;
+        font-size: .8em;
+        top: 20px;
+    }
+
+    .tan h3{
+        font-size: .7em;
+        position: absolute;
+        top: -10px;
+        left: 10px;
+    }
+
+    .notes p{
+        font-size: .52em;
+        width: 190px;
+        font-weight: 300;
+    }
+
+    .fortune{
+        top: 30px;
+        font-size: .6em;
+        width: 120px;
+    }
+
+    .leaf{
+        width: 80px;
+        left: 32%;
+        top: 40%;
+    }
+
+    .fav-quote{
+        width: 150px;
+        height: 80px;
+        top: 0px;
+        right: 0;
+    }
+
+    .fav-quote h2{
+        top: -17px;
+        left: 30px;
+        font-size: .58em;
+    }
+
+    .bar{
+        left: 17%;
+        width: 100px;
+        top: -2px;
+    }
+
+    .fav-quote p{
+        position: relative;
+        padding: 0px 5px;
+        top: -5px;
+        font-size: .58em;
+    }
+
+    .gifts{
+        margin-top: 40px;
+    }
+
+    .gift{
+        width: 40px;
+        height: 40px;
+        margin-bottom: 5px;
+
+    }
+
+    .gift-container img{
+        height: 40px;
+    }
+
+    .my-review{
+        margin-top: 60px;
+        width: 200px;
+    }
+
+    .review-paper{
+        width: 200px;
+        height: auto;
+    }
+
+    .my-review h2{
+        top: 15px;
+        font-size: .7em;
+    }
+
+    .my-review p{
+        top: 25px;
+        font-size: .58em;
+        line-height: 1.2em;
+        font-weight: 200;
+        word-spacing: .1em;
+    }
+
+    .gar{
+        width: 40px;
+        left: -10%;
+    }
+
+    .clear-tape{
+        width: 80px;
+        top: -25px;
+    }
+
+    .c1{
+        clip-path: circle(320px at right 200px);
+        right: -220px;
+
+    }
+
+    .c2{
+        clip-path: circle(150px at right 240px);
+        right: -40px;
+    }
+
+    .bc1{
+        position: absolute;
+        clip-path: circle(300px at right 260px) ;
+        left: 150px;
+    }
+
+    .bc2{
+        clip-path: circle(100px at center 400px);
+    }
+
+    .vintage-paper{
+        left: -60%;
+        bottom: -30%;
+        transform: scale(.4);
+    }
+}
