@@ -1407,7 +1407,7 @@ main{
     }
 
     .bc2{
-        clip-path: circle(100px at center 400px);
+        clip-path: circle(100px at center 350px);
     }
 
     .vintage-paper{
