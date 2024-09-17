@@ -6,7 +6,7 @@ import "./style.css";
 
 export default function App(){
 
-    const [clickedLink, setClickedLink] = useState(1);
+    const [clickedLink, setClickedLink] = useState(null);
 
 
     // console.log(clickedLink)
