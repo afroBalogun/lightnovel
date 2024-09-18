@@ -8,7 +8,6 @@ export default function App(){
 
     const [clickedLink, setClickedLink] = useState(null);
 
-
     // console.log(clickedLink)
 
     return(

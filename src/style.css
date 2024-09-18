@@ -50,6 +50,7 @@ main{
     background-position: 0 .8em;
     background-repeat: no-repeat;
     background-size: 0 100%;
+    transition: .5s ease-in-out;
 
 }
 
@@ -227,7 +228,6 @@ main{
     position: relative;
     top: 25px;
     width: 200px;
-    height: fit-content;
     background-color: #e9cfb1;
     transform: rotate(-8deg);
     z-index: 1;
@@ -1573,7 +1573,7 @@ main{
         font-size: .64em;
         width: 150px;
         top: 40%;
-        left: 50%;
+        left: 45%;
         padding: 5%;
         line-height: 1.4em;
 
