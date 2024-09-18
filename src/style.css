@@ -228,6 +228,7 @@ main{
     position: relative;
     top: 25px;
     width: 200px;
+    height: fit-content;
     background-color: #e9cfb1;
     transform: rotate(-8deg);
     z-index: 1;
