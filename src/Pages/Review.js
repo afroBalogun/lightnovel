@@ -74,8 +74,9 @@ export default function Review(props){
         })
 
         gsap.from( '.fa-house', {
-            duration: 1,
-            opacity: 0
+            duration: .5,
+            opacity: 0,
+            
         })
     })
 
