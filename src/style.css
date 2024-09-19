@@ -96,6 +96,26 @@ main{
     overflow: hidden;
 }
 
+.container i{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    font-size: 1.4em;
+    color: #fff;
+    border-radius: 50%;
+    z-index: 4;
+    padding: 20px;
+    transition: .2s ease-in-out;
+    box-shadow: 2px 2px 2px #2a2b2d;
+}
+
+i:hover{
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    filter: brightness(.7);
+    
+}
+
 .book-cover{
     position: relative;
     width: 350px;

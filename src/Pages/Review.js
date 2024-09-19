@@ -72,12 +72,21 @@ export default function Review(props){
             opacity: 0,
             duration: .5,
         })
+
+        gsap.from( '.fa-house', {
+            duration: 1,
+            opacity: 0
+        })
     })
 
     // console.log(props.clickedLink)
 
     function checkId(lightNovel){
         return lightnovels.find((lightNovel) => lightNovel.id === props.clickedLink);
+    }
+
+    function home(){
+        props.setClickedLink(null)
     }
 
 
@@ -152,6 +161,12 @@ export default function Review(props){
                 <img src="images/john's page.png" alt="" className="vintage-paper" />
             </div>
             <img src="images/maple.png" alt="" className="leaf" />
+
+            <i class="fa-solid fa-house"
+               style={{backgroundColor: novel.colors.bookCover}}
+               onClick={home}
+            ></i>
+
         </div>
         
     )

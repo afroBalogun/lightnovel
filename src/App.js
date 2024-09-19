@@ -16,6 +16,7 @@ export default function App(){
                 clickedLink ?
                     <Review
                         clickedLink = {clickedLink}
+                        setClickedLink = {setClickedLink}
                     />:
                     <ReviewLinks
                     setClickedLink = {setClickedLink}
