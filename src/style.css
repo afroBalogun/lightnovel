@@ -957,6 +957,13 @@ i:hover{
 
 }
 
+@media (max-width: 768px) {
+
+    .img-container p{
+        left: 60%;
+    }
+}
+
 
 
 @media (max-width: 750px) {
@@ -1282,7 +1289,7 @@ i:hover{
     }
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
 
     .links img{
         width: 200px;
@@ -1376,9 +1383,12 @@ i:hover{
         left: -50%;
     }
 
-}
+} */
 
 @media (max-width: 400px) {
+    main{
+        height: 100vh;
+    }
 
     .links{
         padding: 5%;
@@ -1487,7 +1497,7 @@ i:hover{
     .fav-quote p{
         position: relative;
         padding: 0px 5px;
-        top: -5px;
+        top: -10px;
         font-size: .58em;
     }
 
@@ -1567,21 +1577,18 @@ i:hover{
     }
 }
 
-@media (max-width: 768px) {
 
-    .img-container p{
-        left: 60%;
-    }
-}
 
 
 @media (max-width : 375px) {
     .links{
         padding: 5%;
+        
     }
 
     .links img{
-        width: 200px;
+        width: 10px;
+   
     }
 
     .links h4{
@@ -1594,12 +1601,16 @@ i:hover{
         font-size: .64em;
         width: 150px;
         top: 40%;
-        left: 45%;
-        padding: 5%;
+        left: 40%;
+        padding: 5% !important;
         line-height: 1.4em;
 
     }
 }
+
+
+
+
 
 @media (max-width : 414px) {
     .links{
@@ -1607,17 +1618,17 @@ i:hover{
     }
 
     .links img{
-        width: 200px;
+        width: 150px;
     }
 
     .links h4{
-        font-size: .5em;
+        font-size: .42em;
         margin-bottom: 10px;
 
     }
 
     .img-container p{
-        font-size: .64em;
+        font-size: .42em;
         width: 150px;
         top: 41%;
         left: 52%;
@@ -1653,6 +1664,10 @@ i:hover{
 
     }
 }
+
+
+
+
 
 @media (max-width : 360px) {
     .links{
