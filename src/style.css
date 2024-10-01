@@ -1289,7 +1289,7 @@ i:hover{
     }
 }
 
-/* @media (max-width: 500px) {
+@media (max-width: 500px) {
 
     .links img{
         width: 200px;
@@ -1383,13 +1383,10 @@ i:hover{
         left: -50%;
     }
 
-} */
+}
 
 @media (max-width: 400px) {
-    main{
-        height: 100vh;
-    }
-
+    
     .links{
         padding: 5%;
     }
@@ -1695,3 +1692,8 @@ i:hover{
     }
 }
 
+@media (min-height: 675px) {
+    main{
+        height: 100vh;
+    }
+}
